@@ -110,19 +110,19 @@ const App = () => {
               onFocus={()=>setMostrarResultados(false)}
             />
           </div>
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <input
               type="text"
               className="py-2 rounded-md outline-1 outline-linea w-full px-3 text-1xl"
               placeholder="20.2"
             />
-          </div>
+          </div> */}
 
           <div className="mt-4">
             {mostrar && <p className="text-2xl text-result font-semibold text-center py-3">La dosis es de: {resultado}ml</p>}
             <button
               type="submit"
-              className="bg-primary rounded-md uppercase py-2 w-full text-gradient1 font-semibold shadow-lg"
+              className="bg-primary6 rounded-md uppercase py-2 w-full text-texto  hover:bg-gradien_Bottom hover:shadow-xl font-semibold shadow-lg transition-all duration-300"
               onClick={calcular}
             >
               calcular

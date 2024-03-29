@@ -9,9 +9,12 @@ export default {
       colors: {
         "gradient1": "#fafbff",
         "gradient2": "#c6d3f5",
-        "primary": "#7088ff",
+        "bgradient5": "#7681de",
+        "primary6": "#5c5fcf",
         "linea": "#fc9505",
-        "result": "#49519e"
+        "result": "#222344",
+        "texto": "#f0f4fd",
+        "gradien_Bottom": "#4c4cb6"
 
 
       }
