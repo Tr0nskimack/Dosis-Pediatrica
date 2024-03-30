@@ -73,7 +73,7 @@ const App = () => {
 
       {/* formulario */}
 
-      <div className="sm:w-[360px] w-[375px]  h-[400px] ">
+      <div className=" sm:w-[360px] sm:p-3 w-[375px] px-3 h-[400px] ">
         <div className="mt-5">
           <select
             className="block w-full py-2 outline-1 outline-linea rounded-md text-gray-400"
